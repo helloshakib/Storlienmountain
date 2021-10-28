@@ -1,0 +1,107 @@
+h1, h2 {
+    /* font-family: 'Bebas Neue', cursive; */
+}
+h1, h2, h3, h5{
+    color: #363958;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+p {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Roboto', sans-serif; 
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+li { 
+    list-style: none;
+}
+.main-menu {
+    margin-top: 15px;
+  }
+  .main-menu li {
+    float: left;
+    margin-right: 15px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+  }
+  .main-menu li a {
+    color: #232332;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 30px 15px;
+}
+/* .header-area{
+    padding: 30px 0;
+} */
+.logo{
+    padding: 4px 0;
+}
+.logo img{
+    width: 103px; 
+    height: 103px; 
+    object-fit: contain; 
+    object-position: center center;
+}
+.menu-right {
+    padding: 30px 0;
+    display: flex;
+    float: right;
+    margin-top: 6px;
+    margin-right: 15px;
+}
+.social-icon {
+    margin-right: 15px;
+    padding: 5px 0px;
+}
+
+.social-icon img {
+    height: 22px;
+}
+.social-icon a {
+    padding: 0px 5px;
+}
+.country {
+    border: 1px solid #dddddd;
+    padding: 5px 20px;
+    border-radius: 30px;
+    display: flex;
+}
+.swe {
+    margin-right: 20px;
+}
+.country img {
+    height: 22px;
+}
+
+.country span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.hero-section{
+    background-size: cover !important;
+    background-position: center center;
+    background-color: #dddddd;
+    height: 550px;
+    color: #ffffff;
+    background: url(../images/hero.jpg);
+}
+.hero-content{
+    
+    padding: 60px;
+}
+.hero-content h1{
+    font-size: 60px;
+    color: #ffffff;
+}
+.hero-content h4{
+    font-size: 30px;
+}
